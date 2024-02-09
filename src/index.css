@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+}
+.nav{
+  height: 10vh;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 3vw;
+}
+.navpart2{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.page1{
+  width: 100%;
+  height: 35vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  background-image: url(https://images.unsplash.com/photo-1447078806655-40579c2520d6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+
+}
+.page1 h1{
+  font-size: 7vw; 
+
+}
+.page1 p{
+  width: 50vw;
+}
+.buttons{
+  width: 30vw;
+  display: flex;
+}
+.buttons .view{
+  padding: 1vw 3vw;
+  /* background-color: red; */
+  color: white;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.buttons .res{
+  padding: 1vw 3vw;
+  /* background-color: red; */
+  color: white;
+  border: 1px solid #fff;
+  background: transparent;
+  margin-left: 5px;
+  background-color:goldenrod
+}
+.page2{
+  width: 100%;
+  height: 50vmax;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5vmax;
+}
+.page2rightbox{
+  background-color: red;
+  width: 30%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-image: url(https://images.unsplash.com/photo-1481391145929-5bcf567d5211?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+.page2leftbox{
+  width: 40%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.slide_down_line{
+  width: 70%;
+  padding: 3px ;
+  background-color: #CC966F;
+}
+.page3{
+  width: 100%;
+  height: 40vmax;
+  display: flex;
+  padding: 100px 0px ;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.slide_down_line_2{
+  width: 50%;
+  padding: 2px ;
+  background-color: #CC966F;
+}
+.custom_button{
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 3px;
+  background-color: #CC966F;
+  font-family: gilroy Medium;
+  color: white;
+}
+
+.page4{
+  width: 100%;
+  height: 60vmax;
+  padding: 0vmax 5vmax;
+  background-color: black;
+}
+.page4wrapperdiv{
+  width: 99%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.page4contentdiv{
+  width: 400px;
+    height: 205px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.page4contentdivalternative{
+  width: 400px;
+  height: 205px;
+  justify-content: space-around;
+  /* background-color: red; */
+}
+.page4 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page5{
+  width: 100%;
+    height: 40vmax;
+    display: flex;
+    padding:50px 0px ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #f7f7f7; */
+}
+.slide_down_line_2{
+  width: 50%;
+  padding: 2px ;
+  background-color: #CC966F;
+}
+.page5testimonialbox{
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.page5testimonialboxcontent1{
+  width: 21%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.page6{
+  width: 100%;
+  height: 60vmax;
+  display: flex;
+  padding:50px 0px ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.page6contentbox{
+  width: 90%;
+  height: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slide_down_line_2{
+  width: 50%;
+  padding: 2px ;
+  background-color: #CC966F;
+}
+
+.page6contentboxcontent1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.page6 img{
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+.page7{
+  width: 100%;
+  height: 45vmax;
+  display: flex;
+  padding: 5vmax;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?q=80&w=1496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+}
+.page7box1{
+  width: 35%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(56, 56, 56, 0.288);
+    color: white;
+}
+.page7box2{
+  width: 35%;
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(56, 56, 56, 0.288);
+  color: white;
+}
+
+.slide_down_line_3{
+  width: 50%;
+  padding: 2px ;
+  background-color: #CC966F;
+}
+.custom_button_2{
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 3px;
+  background-color: #CC966F;
+  font-family: gilroy Medium;
+  color: white;
+  margin-top: 5px;
+}
+.formstyle{
+  width: 80%;
+  padding: 10px 0px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputStyle{
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: grey;
+  border: none;
+  outline: none;
+}
+
+.page8{
+  width: 100%;
+  height: 5vmax;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
